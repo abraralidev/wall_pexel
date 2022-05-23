@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "950625895588",
+    "project_id": "wall-pexel-69cca",
+    "storage_bucket": "wall-pexel-69cca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950625895588:android:229d940885d8c81e82d231",
+        "android_client_info": {
+          "package_name": "com.example.wall_pexel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950625895588-aamq91dmukq2apan76l5hu2883nqb2b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX-qhbplZaYBITW6rj2s-TFhfYq2v4SsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950625895588-aamq91dmukq2apan76l5hu2883nqb2b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
