@@ -24,12 +24,9 @@ class Images_Card extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 0, 0, 0),
                       borderRadius: BorderRadius.circular(10)),
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Image(
-                      alignment: Alignment.center,
-                      image: images,
-                    ),
+                  child: Image(
+                    alignment: Alignment.center,
+                    image: images,
                   )),
             ),
           ),
@@ -44,11 +41,8 @@ class Images_Card extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 0, 0, 0),
                       borderRadius: BorderRadius.circular(10)),
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Image(
-                      image: images2,
-                    ),
+                  child: Image(
+                    image: images2,
                   )),
             ),
           ),
