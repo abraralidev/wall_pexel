@@ -35,7 +35,7 @@ class Search_Screen extends StatelessWidget {
                         builder: (context) => const Cars_Wallpapers()),
                   );
                 },
-                imagess: const AssetImage('assets/cars.jpg'),
+                imagess: const AssetImage('assets/cars.jpeg'),
               ),
               Data_Widget(
                 opress: () {
@@ -45,7 +45,7 @@ class Search_Screen extends StatelessWidget {
                         builder: (context) => const Bikes_Wallpapers()),
                   );
                 },
-                imagess: const AssetImage('assets/bike.jpg'),
+                imagess: const AssetImage('assets/bike.jpeg'),
               ),
               Data_Widget(
                 opress: () {
@@ -55,7 +55,7 @@ class Search_Screen extends StatelessWidget {
                         builder: (context) => const mountain_Wallpapers()),
                   );
                 },
-                imagess: const AssetImage('assets/mountain.jpg'),
+                imagess: const AssetImage('assets/mountain.jpeg'),
               ),
               Data_Widget(
                 opress: () {
@@ -65,7 +65,7 @@ class Search_Screen extends StatelessWidget {
                         builder: (context) => const Animals_Wallpapers()),
                   );
                 },
-                imagess: const AssetImage('assets/Animals.jpg'),
+                imagess: const AssetImage('assets/Animals.jpeg'),
               ),
               // Data_Widget(
               //   opress: () {

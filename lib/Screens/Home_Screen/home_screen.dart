@@ -3,6 +3,7 @@
 import 'dart:ffi';
 import 'package:flutter/material.dart';
 import 'package:wall_pexel/Data/storage_service.dart';
+import 'package:wall_pexel/Screens/Help%20Screen/help_screen.dart';
 import 'package:wall_pexel/widgets/animals_images.dart';
 import 'package:wall_pexel/widgets/bikes_images.dart';
 import 'package:wall_pexel/widgets/cars_images.dart';
@@ -10,7 +11,6 @@ import 'package:wall_pexel/widgets/home_images.dart';
 import 'package:wall_pexel/widgets/mountain_images.dart';
 import 'package:wall_pexel/widgets/slider_widget.dart';
 import '../../widgets/images_card.dart';
-import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 
 class Home_Screen extends StatefulWidget {
   const Home_Screen({Key? key}) : super(key: key);
@@ -38,6 +38,18 @@ class _Home_ScreenState extends State<Home_Screen> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 41, 41, 41),
       appBar: AppBar(
+        actions: [
+          IconButton(
+              icon: const Icon(
+                Icons.help,
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Help_Screen()),
+                );
+              })
+        ],
         elevation: 5,
         backgroundColor: const Color.fromARGB(255, 31, 31, 31),
         title: const Center(

@@ -17,9 +17,9 @@ class Slider_Widget extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.all(6.0),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8.0),
+              borderRadius: BorderRadius.circular(5.0),
               image: const DecorationImage(
-                image: AssetImage("assets/wallpaper1.jpg"),
+                image: AssetImage("assets/wallpaper1.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -31,9 +31,9 @@ class Slider_Widget extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.all(6.0),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8.0),
+              borderRadius: BorderRadius.circular(5.0),
               image: const DecorationImage(
-                image: AssetImage("assets/wallpaper2.jpg"),
+                image: AssetImage("assets/wallpaper2.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -45,9 +45,9 @@ class Slider_Widget extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.all(6.0),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8.0),
+              borderRadius: BorderRadius.circular(5.0),
               image: const DecorationImage(
-                image: AssetImage("assets/wallpaper3.jpg"),
+                image: AssetImage("assets/Animals.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -59,9 +59,9 @@ class Slider_Widget extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.all(6.0),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8.0),
+              borderRadius: BorderRadius.circular(5.0),
               image: const DecorationImage(
-                image: AssetImage("assets/wallpaper4.jpg"),
+                image: AssetImage("assets/wallpaper4.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -73,9 +73,9 @@ class Slider_Widget extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.all(6.0),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8.0),
+              borderRadius: BorderRadius.circular(5.0),
               image: const DecorationImage(
-                image: AssetImage("assets/wallpaper5.jpg"),
+                image: AssetImage("assets/wallpaper5.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -85,9 +85,9 @@ class Slider_Widget extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.all(6.0),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8.0),
+              borderRadius: BorderRadius.circular(5.0),
               image: const DecorationImage(
-                image: AssetImage("assets/wallpaper6.jpg"),
+                image: AssetImage("assets/wallpaper6.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),
